@@ -3,11 +3,29 @@
 /* Set custom variables here */
 
 
+/*CSS variables style*/
 
+:root {
+  --bs-body-bg: #F6F3ED;
+  --bs-primary: #2e483a;
+  --bs-primary-rgb: 46, 72, 58;
+  --bs-light: #f6f3ed;
 
+  --ff-s: 'Merriweather', serif;
+  --ff-ss: 'Sarala', sans-serif;
+
+}
+
+.btn {
+  color: #f6f3ed;
+  background-color: #2e483a;
+  border: none;
+  font-family: var(--ff-ss);
+}
 
 .navbar-brand {
   color: #F6F3ED;
+
 }
 
 body {
@@ -51,3 +69,5 @@ section:not(#hero):not(#cta){
     padding: 100px 0;
   }
 }
+
+/* Hi Wendy, :) Thanks again for all your help and patience with web. I will miss you teaching us for the rest of this semester, but look forward to seeing you again soon. Hope you have a nice vacation! -Lori*/ 
